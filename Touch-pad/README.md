@@ -1,3 +1,13 @@
+Code written by Martin Wibom.
+The touch-pad code is built on the Serial-bridge example. When run the code will act as an on/off switch and a dimmer.
+To function two buttons need to be connected to the Arduino. If either button is clicked the light will turn on/ off, if one is pressed and held it will after a second start to dim the light. Either increase or decrease depending on the button.
+
+Arduino sends out four variables that the JavaScript then process and turns into actions through various if statements. 
+
+TO SET UP!
+Follow the steps below for the serial-bridge. Make sure to have two buttons connected to the correct ports on the Arduino (D2 & D3).
+
+
 # !! deprecated
 
 This sample remains to demonstrate simple bidirectional communication, but consider  instead the `json-serial-bridge` sample. It uses a more robust way of piping data back and forth.

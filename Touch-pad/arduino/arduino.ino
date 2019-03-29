@@ -45,16 +45,19 @@ void loop() {
    Serial.println('0');
  buttonState = button.readSwitch();*/
 
- if (button.released() )
-  Serial.println('1');
-  else if (button.held() ){
-  Serial.println('2');
-  }
+ if (button.pressed() )
+    Serial.println('1');
+  else if (button.held() )
+    Serial.println('2');
+  else if (button.released() )
+    Serial.println('4');
 
-if (button2.held() )
-  Serial.println('3');
+  if (button2.pressed() )
+   Serial.println('1');
+  else if (button2.held() )
+    Serial.println('3');
   else if (button2.released() )
-  Serial.println('1');
+    Serial.println('4');
     
   // Process serial communucation
   recvWithStartEndMarkers();
@@ -80,10 +83,10 @@ if (button2.held() )
     }
 
   // Every so often report a fake position
-  if (millis() - lastFakeReport > 2000) {
-    report(MsgPosition, (random(0,100)));
-    lastFakeReport = millis();    
-  }
+//  if (millis() - lastFakeReport > 2000) {
+//    report(MsgPosition, (random(0,100)));
+//    lastFakeReport = millis();    
+//  }
   delay(100);
 }
 
