@@ -1,4 +1,4 @@
-# lightweightchampions . Interaction design - Light project
+﻿# lightweightchampions . Interaction design - Light project
 
 In this respository we have tried to develop and expand x amount of examples to explore different concepts of lights, from switches to dimmers. We have also explored changing hues and using lights with voice commands.
 
@@ -15,6 +15,8 @@ We have one example that controls the hue as well as the brightness of the hue i
 We have one example that uses voice commands to control the led light connected to the arduino. The examples uses an speech recognition API called Annyang. It works with commands like, "lights on/off" to turn on the led. 
 
 We have one example that controls led lights by turning off/on, but also uses serial bridge to control the dimming of the screen on the browsers through the touch of the touch-pad surface. 
+
+We have one example that controls LED brighness with two buttons. If user press the button forcefully LED brighness increases. If user press the button gently LED brighness decreases.
 
 # Collabortors of this projects are:
 
