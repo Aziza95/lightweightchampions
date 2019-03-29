@@ -1,7 +1,7 @@
-const int brightnessUp = 9;     // the number of the pushbutton pin
-const int brightnessDown = 8;     // the number of the pushbutton pin
+const int brightnessUp = 8;     // the number of the pushbutton pin
+const int brightnessDown = 9;     // the number of the pushbutton pin
 const int ledPin =  11;      // the number of the LED pin
-const int maxBrightness = 3; //this can be any number - it's the number of steps between dimmest and brightest. 
+const int maxBrightness =25; //this can be any number - it's the number of steps between dimmest and brightest. 
 
 // variables will change:
 int brightness = maxBrightness;
