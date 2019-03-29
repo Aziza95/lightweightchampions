@@ -18,6 +18,8 @@ We have one example that controls led lights by turning off/on, but also uses se
 
 We have one example that controls LED brighness with two buttons. If user press the button forcefully LED brighness increases. If user press the button gently LED brighness decreases.
 
+We have one example with a simple dimming up and down functionality, it recieves a 1 or a 0 from the arduino and increments up or down depending on the ceiling value.
+
 # Collabortors of this projects are:
 
 Aziza Bahaviddinova,

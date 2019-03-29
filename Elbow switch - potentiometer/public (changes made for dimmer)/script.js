@@ -27,7 +27,7 @@ function onDocumentReady() {
             }
         }
         // runs the function that reads the value of the potentiometer (new function)
-        addedFunctionality(lastMsg, evt.data);
+        addedFunctionality(evt.data);
     }
     socket.onopen = function(evt) {
         console.log("Socket opened");
@@ -55,7 +55,7 @@ function colourPick(data) {
     document.body.style.background = rainbow(data);
 }
 // reads the value and calls on the colourPick function (new function)
-function addedFunctionality(msg, data){
+function addedFunctionality(data){
     //console.log(msg);
     colourPick(data);
 }
